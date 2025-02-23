@@ -22,6 +22,7 @@ list *insert_at_end(list *head, int value) {
     }
 
     current->next = new_node;
+    //Fonction pour supprimer un élément de la liste
     return head;
 }
 
